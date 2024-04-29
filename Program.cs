@@ -4,8 +4,6 @@
 //При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
 
-using System.Text;
-
 string[] StringArray(string[] array)
     {
         int count = 0;
@@ -40,9 +38,9 @@ string[] StringArray(string[] array)
         }
     }
 
-//string[] array = {"apple", "banana", "car", "dog", "elephant", "fox" }; // если массив задан, то следующие 9 строчек не нужны.
-Console.InputEncoding = Encoding.Unicode;
-Console.OutputEncoding = Encoding.Unicode;
+//string[] array = {"apple", "banana", "car", "dog", "elephant", "fox" }; // если массив задан, то следующие 7 строчек не нужны.
+//Console.InputEncoding = Encoding.Unicode;
+//Console.OutputEncoding = Encoding.Unicode;
 Console.Write("Введите количество строк: ");
 int n = Convert.ToInt32(Console.ReadLine()); 
 string[] array = new string[n]; 
